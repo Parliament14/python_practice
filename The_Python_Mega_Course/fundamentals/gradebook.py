@@ -5,7 +5,7 @@ class gradebookFunctions:
     def findMean(gradebook: dict, sum: float):
         return sum / len(gradebook)
     
-    def printGrades(gradebook):
+    def printGrades(gradebook: dict):
         for student in gradebook.keys():
             print(f"Student {student} has the grade {gradebook[student]}")
     
